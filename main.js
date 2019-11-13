@@ -13,10 +13,11 @@ var color19 = prompt('Whats your favourite color?');
 console.log(color19);
 
 //print result
-var password = (name + surname + color19);
+var password = (name + surname + color);
 console.log(password);
-document.getElementByID('name').innerHtml = nome;
-document.getElementByID('surname').innerHtml = cognome;
-document.getElementByID('color19').innerHtml = colore;
+document.getElementById('name').innerHTML = name;
+document.getElementById('surname').innerHTML = surname;
+document.getElementById('color19').innerHTML = color19;
 
-document.getElementByID('password').setAttribute('class','visible');
+
+document.getElementById('password').setAttribute('class','visible');
